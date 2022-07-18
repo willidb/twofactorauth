@@ -1,0 +1,21 @@
+{
+  "Oracle Cloud Infrastructure": {
+    "domain": "oracle.com",
+    "tfa": [
+      "totp",
+      "custom-software",
+      "sms",
+      "call",
+      "email",
+      "u2f"
+    ],
+    "custom-software": [
+      "Duo",
+      "Oracle Mobile Authenticator"
+    ],
+    "documentation": "https://docs.oracle.com/en/cloud/paas/identity-cloud/uaids/configure-authentication-factors.html",
+    "keywords": [
+      "cloud"
+    ]
+  }
+}
